@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">fuelapp</string>
+    <string name="driver">string</string>
+    <string name="admin">string</string>
+</resources>

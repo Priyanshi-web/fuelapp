@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/teal_700" tools:context=".mainactivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:layout_gravity="center" android:gravity="center" android:orientation="vertical">
+
+    <Button android:layout_height="50sp" android:layout_width="300sp" android:onClick="driver" android:backgroundTint="@color/black" android:textStyle="bold" android:textSize="20sp" android:textColor="@color/red" android:text="@string/driver"/>
+
+    <Button android:layout_height="50sp" android:layout_width="300sp" android:onClick="admin" android:backgroundTint="@color/black" android:textStyle="bold" android:textSize="20sp" android:textColor="@color/red" android:text="@string/admin" android:layout_marginTop="20sp"/>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <manifest xmlns:tools="http://schemas.android.com/tools"
+        package="com.example.fuelpump" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <application android:theme="@style/Theme.Fuelapp" android:supportsRtl="true" android:roundIcon="@mipmap/fuel_launcher_round" android:label="@string/app_name" android:icon="@mipmap/fuel_launcher" android:allowBackup="true">
+
+    <activity
+        android:name=".Register"
+        android:label="Registration Form"
+        tools:ignore="MissingClass" />
+
+    <activity android:label="Login" android:name=".Login"/>
+
+
+    <activity android:name=".splash"
+        tools:ignore="MissingClass">
+
+
+    <intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+    <activity android:label="Admin" android:name=".Admin" android:screenOrientation="landscape"/>
+
+    <activity android:label="Driver" android:name=".Driver"/>
+
+    <activity android:label="Home" android:name=".MainActivity"/>
+
+</application>
+
+</manifest>

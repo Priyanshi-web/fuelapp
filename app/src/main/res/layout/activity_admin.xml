@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/teal_700" tools:context=".admin" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button android:layout_height="50dp" android:layout_width="300dp" tools:ignore="MissingConstraints" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:text="Display" android:onClick="readRecords" android:id="@+id/btnDisplay"/>
+
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent" android:layout_marginTop="60dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="" android:id="@+id/txtData" android:layout_marginTop="16dp" android:textSize="20dp" android:layout_marginRight="5dp" android:layout_marginLeft="5dp" android:textStyle="bold"/>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
